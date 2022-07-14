@@ -5,6 +5,19 @@
 }
 
 :root {
-	--violet: hsl(257, 40%, 49%);	
-	--soft-magenta: hsl(300, 69%, 71%);
+	--bg-body: hsl(257, 40%, 49%);	
+	--btn-hover: hsl(300, 69%, 71%);
 }
+body {
+	background-image: url(../images/bg-mobile.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: var(--bg-body);
+	padding: 3rem;
+}
+
+.logo {
+	display: block;
+	width:  40%;
+}
+
