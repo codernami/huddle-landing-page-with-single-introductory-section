@@ -84,3 +84,25 @@ body {
 	background-color: var(--btn-hover);
 	cursor: pointer;
 }
+
+/****************************************
+				FOOTER
+****************************************/
+.footer {
+	margin-top: 8rem;
+	display: flex;
+	justify-content: center;
+}
+.social-links {
+	list-style-type: none;
+	display: flex;
+}
+.social-links_item {
+	margin: .5rem;
+}
+.social-links_icon {
+	color: #FFF;
+	border: 1px solid #FFF;
+	border-radius: 50%;
+	padding: .8rem;
+}
