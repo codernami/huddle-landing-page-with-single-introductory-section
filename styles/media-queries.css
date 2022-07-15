@@ -1,0 +1,54 @@
+
+/****************************************
+			MEDIA QUERIES
+****************************************/
+
+@media screen and (min-width: 768px) {
+	body {
+		background-image: url(../images/bg-desktop.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+	.logo {
+		width: 15vw;
+	}
+	.main {
+		flex-direction: row;
+	}
+	.main_img {
+		width: 50vw;
+	}
+	.info {
+		align-items: flex-start;
+		padding-left: 2rem ;
+		margin-top: 0;
+	}
+	.info_title {
+		text-align: left;
+	}
+	.info_text {
+		text-align: left;
+		padding-top: 1rem;
+	}
+	.info_btn {
+		margin-top: 2rem;
+		padding: .8rem 4rem;
+	}
+	.footer {
+		justify-content: flex-end;	
+	}
+	.social-links_icon:hover {
+		color: var(--btn-hover);
+		border:  1px solid var(--btn-hover);
+	}
+}
+@media screen and (min-width: 1024px) {
+	.main {
+		align-items: flex-start;
+	}
+	.info {
+		padding-top: 2rem;
+	}
+}
