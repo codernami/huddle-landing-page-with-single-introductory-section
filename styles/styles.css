@@ -28,7 +28,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: var(--bg-body);
-	min-height: 100vh;
 	padding: 1.5rem;
 }
 
@@ -74,7 +73,7 @@ img {
 	text-align: center;
 }
 .info_text {
-	width: min(550px, 90%);
+	width: min(600px, 95%);
 	font-family: var(--font-text);
 	font-size: clamp(1rem, 2vw, 1.2rem);
 	font-weight: 400;
@@ -105,7 +104,7 @@ img {
 .footer {
 	display: flex;
 	justify-content: center;
-	margin-top: 8rem;
+	margin-top: 5rem;
 }
 .social-links {
 	display: flex;
